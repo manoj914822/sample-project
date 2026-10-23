@@ -1,6 +1,6 @@
 name: Streamlit GenAI CI
 
-on:
+"on":
   push:
     branches: [main]
   pull_request:
