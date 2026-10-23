@@ -1,0 +1,36 @@
+blood_report = """
+BLOOD TEST REPORT
+Patient Name: Rajesh Sharma
+Age: 48 years
+Gender: Male
+Date: May 7, 2026
+
+1. COMPLETE BLOOD COUNT (CBC)
+Hemoglobin: 15.1 g/dL
+Hematocrit: 44%
+WBC: 6.8 × 10³/µL
+Platelets: 220 × 10³/µL
+
+2. LIPID PANEL
+Total Cholesterol: 238 mg/dL
+LDL Cholesterol: 162 mg/dL
+HDL Cholesterol: 36 mg/dL
+Triglycerides: 188 mg/dL
+
+3. METABOLIC PANEL
+Fasting Glucose: 92 mg/dL
+HbA1c: 5.3%
+Creatinine: 1.0 mg/dL
+eGFR: 82 mL/min
+
+4. LIVER FUNCTION TEST (LFT)
+ALT: 28 U/L
+AST: 25 U/L
+ALP: 85 U/L
+Total Bilirubin: 0.8 mg/dL
+Direct Bilirubin: 0.2 mg/dL
+Total Protein: 7.2 g/dL
+Albumin: 4.2 g/dL
+"""
+
+print(blood_report[:200])
